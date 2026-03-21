@@ -7670,6 +7670,8 @@
                     "id": "overlay_wielded_helmet_skull",
                     "fg": 1052,
                     "rotates": false
+                }, { "id": "skull_human",
+                     "fg": 1053
                 }, {
                     "id": "overlay_worn_helmet_skull",
                     "fg": 1053,
@@ -18449,7 +18451,7 @@
                     "id": "overlay_wielded_textbook_survival",
                     "fg": 2598
                 }, {
-                    "id": "mag_swimming",
+                    "id": [ "mag_swimming", "restaurantbrochure" ],
                     "fg": 2585,
                     "bg": 9279,
                     "rotates": false
@@ -28004,6 +28006,10 @@
                     "fg": 3729,
                     "rotates": false
                 }, {
+                    "id": "pin_badge",
+                    "fg": 3729,
+                    "rotates": false
+                }, {
                     "id": "gradcylinder",
                     "fg": 3730,
                     "rotates": false
@@ -32274,6 +32280,10 @@
                     "rotates": false
                 }, {
                     "id": "wallet_travel",
+                    "fg": 4350,
+                    "rotates": false
+                },{
+                    "id": "dog_tag_dog",
                     "fg": 4350,
                     "rotates": false
                 }, {
@@ -37782,7 +37792,7 @@
                     "fg": 5284,
                     "rotates": false
                 }, {
-                    "id": "knife_steak",
+                    "id": "knife_small_var_knife_steak",
                     "fg": 5285,
                     "rotates": false
                 }, {
@@ -46801,7 +46811,7 @@
                     "fg": 6815,
                     "rotates": false
                 }, {
-                    "id": "awl_steel",
+                    "id": [ "awl_steel", "drift" ],
                     "fg": 6816,
                     "rotates": false
                 }, {
@@ -49369,12 +49379,12 @@
                     "rotates": false
                 }, {
                     "id": "battery_motorbike",
-                    "fg": 7252,
+                    "fg": 7251,
                     "bg": 9331,
                     "rotates": false
                 }, {
                     "id": "overlay_wielded_battery_motorbike",
-                    "fg": 7252,
+                    "fg": 7251,
                     "rotates": false
                 }, {
                     "id": "battery_motorbike_small",
@@ -49400,27 +49410,43 @@
                     "rotates": true
                 }, {
                     "id": "medium_storage_battery",
-                    "fg": 7256
+                    "fg": 7251
                 }, {
                     "id": "overlay_wielded_medium_storage_battery",
-                    "fg": 7256
+                    "fg": 7251
                 }, {
                     "id": "overlay_wielded_small_storage_battery",
-                    "fg": 7257,
+                    "fg": 7251,
                     "rotates": false
                 }, {
                     "id": "small_storage_battery",
-                    "fg": 7257,
+                    "fg": 7251,
                     "bg": 9331,
                     "rotates": false
                 }, {
                     "id": "overlay_wielded_storage_battery",
-                    "fg": 7258,
+                    "fg": 7251,
                     "rotates": false
                 }, {
                     "id": "storage_battery",
-                    "fg": 7258,
+                    "fg": 7251,
                     "bg": 9331,
+                    "rotates": false
+                }, {
+                    "id": [ "small_squeeze_tube", "squeeze_tube_small", "squeeze_tube" ],
+                    "fg": 7252,
+                    "rotates": false
+                }, {
+                    "id": [ "extension_cable", "long_extension_cable" ],
+                    "fg": 7256,
+                    "rotates": false
+                }, {
+                    "id": "paint_can_steel",
+                    "fg": 7257,
+                    "rotates": false
+                }, {
+                    "id": "box_medium_folded",
+                    "fg": 7258,
                     "rotates": false
                 }, {
                     "id": "boat_board",
@@ -84080,6 +84106,10 @@
                     "fg": 15197,
                     "rotates": false
                 }, {
+                    "id": "vp_ap_apartment_freezer",
+                    "fg": 15199,
+                    "rotates": false
+                }, {
                     "id": "vp_ap_foot_locker_recharge_station",
                     "fg": 15198,
                     "rotates": false
@@ -86398,11 +86428,6 @@
                     "id": "t_strconc_wall_halfway",
                     "fg": 16204,
                     "bg": 9320
-                }, {
-                    "id": "t_support_l",
-                    "fg": 16205,
-                    "bg": 9289,
-                    "rotates": false
                 }, {
                     "id": "t_support_s",
                     "fg": 16206,
@@ -96491,7 +96516,12 @@
                     "rotates": false
                 }, {
                     "id": "overlay_wielded_large_lcd_screen",
+                    "fg": 18901,
+                    "rotates": false
+                }, {
+                    "id": "t_support_l",
                     "fg": 18902,
+                    "bg": 18904,
                     "rotates": false
                 }, {
                     "id": "microwave",
@@ -96499,11 +96529,11 @@
                     "rotates": false
                 }, {
                     "id": "television",
-                    "fg": 18904,
+                    "fg": 18901,
                     "rotates": false
                 }, {
                     "id": "overlay_wielded_television",
-                    "fg": 18905,
+                    "fg": 18901,
                     "rotates": false
                 }, {
                     "id": "creepy_doll",
